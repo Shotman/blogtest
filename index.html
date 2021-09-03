@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="content">
-  {% for post in paginator.posts reversed %}
+  {% for post in paginator.posts %}
     <article>
       <header>
         <h2><a href="{{ site.siteurl }}{{ post.url }}">{{ post.title }}</a></h2>
